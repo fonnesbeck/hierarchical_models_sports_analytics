@@ -4,6 +4,8 @@ Decision-making in sports has become increasingly data-driven with GPS, cameras,
 
 In particular, hierarchical models provide a means for integrating information at multiple scales and adjusting for biases associated with small sample sizes. I will demonstrate a Bayesian workflow for model development using PyMC version 5, from data preparation through to the summarization of estimates and predictions, using baseball data.
 
+[Recording of tutorial (YouTube)](https://www.youtube.com/watch?app=desktop&v=Fa64ApS0qig)
+
 ## Setup
 
 This tutorial assumes that you have [Anaconda](https://www.anaconda.com/distribution/#download-section) (Python 3.11 version) or [Mambaforge](https://github.com/conda-forge/miniforge#mambaforge) (preferred) setup and installed on your system.
