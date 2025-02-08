@@ -1,0 +1,36 @@
+[project]
+authors = ["Chris Fonnesbeck <fonnesbeck@gmail.com>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "sports"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "*"
+arviz = "*"
+ipython = "*"
+jax = "*"
+jaxlib = "*"
+jupyterlab = "*"
+notebook = "*"
+ipykernel = "*"
+numpy = "*"
+numpyro = "*"
+pandas = "*"
+patsy = "*"
+pip = "*"
+polars = "*"
+pyarrow = "*"
+python-graphviz = "*"
+pymc = "*"
+scipy = "*"
+seaborn = "*"
+nutpie = ">=0.13.2,<0.14"
+numba = ">=0.60.0,<0.61"
+preliz = ">=0.15.0,<0.16"
+
+[pypi-dependencies]
+pybaseball = "*"

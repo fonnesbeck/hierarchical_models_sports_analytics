@@ -1,4 +1,4 @@
-name: pymc_sports_analytics
+name: sports
 
 channels:
  - conda-forge
@@ -17,7 +17,12 @@ dependencies:
 - pandas
 - patsy
 - pip
+- polars
+- preliz
+- pyarrow
 - python-graphviz
 - pymc
 - scipy
 - seaborn
+- pip:
+  - pybaseball
